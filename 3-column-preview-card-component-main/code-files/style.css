@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  max-width: 1400px;
+}
+
+.car-cards {
+  position: absolute;
+  top: 12vh;
+  display: grid;
+  grid-template-columns: 200px;
+  grid-template-rows: 100px 50px 100px 100px;
+  grid-auto-flow: column;
+  font-family: "Lexend Deca", "Gill Sans", "Gill Sans MT", Calibri,
+    "Trebuchet MS", sans-serif;
+  padding: 30px 30px 80px 50px;
+}
+
+.car-cards-1 {
+  right: 63vw;
+  background-color: hsl(31, 77%, 52%);
+}
+
+.car-cards-2 {
+  right: 40.4vw;
+  background-color: hsl(184, 100%, 22%);
+}
+
+.car-cards-3 {
+  right: 17.78vw;
+  background-color: hsl(179, 100%, 13%);
+}
+
+.car-cards h2 {
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #fff;
+}
+
+p {
+  font-size: 14px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.car-cards a {
+  font-size: 12px;
+  display: flex;
+  text-align: center;
+  align-self: center;
+  display: inline-block;
+  margin-top: 90px;
+  text-decoration: none;
+  background-color: #fff;
+  width: 70px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px #fff solid;
+  transition: background-color 300ms ease-in-out;
+}
+
+.car-cards-1 a {
+  color: hsl(31, 77%, 52%);
+}
+
+.car-cards-1 a:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: #fff;
+}
+
+.car-cards-2 a {
+  color: hsl(184, 100%, 22%);
+}
+
+.car-cards-2 a:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: #fff;
+}
+
+.car-cards-3 a {
+  color: hsl(179, 100%, 13%);
+}
+
+.car-cards-3 a:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: #fff;
+}
